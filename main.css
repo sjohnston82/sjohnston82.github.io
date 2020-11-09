@@ -1,37 +1,49 @@
 html {
     box-sizing: border-box;
+    
 }
 *, *:before, *:after {
     box-sizing: inherit;
-    scroll-behavior: smooth;
+    
+    
 }
-
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
 body{
-    background-image:url("https://wallpaperset.com/w/full/8/c/5/522710.jpg");  
+    background-image:url("https://wallpaperset.com/w/full/8/c/5/522710.jpg"); 
     height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
 }
 
 .nametitle{
     font-family: 'IM Fell English SC', serif;
-    margin-top: 300px;
-    margin-left: 1100px;
-    font-size: 80px;
+    margin-top: 100px;
+    /* margin-left: 1100px; */
+    font-size: 40px;
     color: wheat;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
     /* background-color: darkslategray; */
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    text-align: center;
     
 
 }
 .desctitle{
     font-family: 'IM Fell English SC', serif;
-    margin-top: -55px;
-    margin-left: 1100px;
-    font-size: 60px;
+    margin-top: -15px;
+    /* margin-left: 1100px; */
+    font-size: 25px;
     color: wheat;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
     /* background-color: darkslategray; */
-    padding-left: 40px;
+    /* padding-left: 40px; */
+    text-align: center;
 }
 
 a.btn-social,
@@ -40,14 +52,14 @@ a.btn-social,
     border-radius: 50%;
     color: #ffffff !important;
     display: inline-block;
-    height: 54px;
-    line-height: 54px;
+    height: 34px;
+    line-height: 34px;
     margin: 8px 4px;
     text-align: center;
     text-decoration: none;
     transition: background-color .3s;
     webkit-transition: background-color .3s;
-    width: 54px;
+    width: 34px;
 }
 
 .btn-social .fa,.btn-social i
@@ -123,32 +135,40 @@ a.btn-social,
 
 .smcontainer{
     /* background-color: darkslategray; */
-    margin-left: 1350px;
-    margin-top: -80px;
+    margin-left: 120px;
+    /* margin-top: -35px; */
     border-radius: 25px;
-    margin-right: 320px;
+    /* margin-right: 320px;  */
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #top{
-    min-height: 70vh;
+    min-height: 100vh;
     width: 100%;
     position: relative;
+    
 }
 #about{
     min-height: 100vh;
     width: 100%;
     background-color: #2D4028;
+    color: wheat;
+    
+    
+    
 }
 .scroll-down{
-    height: 100px;
-    width: 60px;
+    height: 50px;
+    width: 30px;
     border: 4px solid wheat;
     outline-color: 2px black;
     position: absolute;
     left: 50%;
-    bottom: 150px;
+    bottom: 270px;
     border-radius: 50px;
     cursor: pointer;
+    /* scroll-behavior: smooth; */
 }
 
 .scroll-down::before,
@@ -158,8 +178,8 @@ a.btn-social,
     top: 20%;
     left: 50%;
     border: 4px solid wheat;
-    height: 30px;
-    width: 30px;
+    height: 15px;
+    width: 15px;
     transform: translate(-50%, -100%) rotate(45deg);
     border-top: transparent;
     border-left: transparent;
@@ -182,5 +202,332 @@ a.btn-social,
     100%{
         opacity: 0;
         top: 90%;
+    }
+}
+
+.mepic{
+   
+    width: 90%;
+    
+    max-height: 250px;
+    
+    
+}
+.intro1{
+    width: 90%;
+    text-align: center;
+    
+    
+    
+}
+
+#aboutbulk1{
+    display: flex;
+    max-width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+}
+#aboutbulk2{
+    display: flex;
+    max-width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    
+}
+#abouttitle{
+    font-family: 'IM Fell English SC', serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.fishpic{
+   
+    width: 90%;
+    align-content: center;
+    max-height: 250px;
+    
+    
+}
+p{
+    font-family: 'Gupter', serif;
+    font-size: 20px;
+
+}
+
+#aboutall{
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    /* max-width: 90vh; */
+    margin-left: 17px;
+    flex-wrap: wrap;
+    /* margin-left: 40px; */
+}
+
+img{
+    width: 300px;
+}
+#experiencetitle{
+    font-family: 'IM Fell English SC', serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+ul{
+    font-family: 'Gupter', serif;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.languages{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    
+}
+#languagetitle{
+    flex: 1;
+    margin-left: 40px;
+}
+#tocometitle{
+    margin-left: 40px;;
+}
+#projectstitle{
+    font-family: 'IM Fell English SC', serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 50px;
+    
+}
+
+.projects{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex: 1;
+    justify-items: center;
+    margin-left: 15px;
+}
+
+.btn{
+    align-self: center;
+}
+.webscraper{
+    width: 18rem;
+}
+.tictactoe{
+    width: 18rem;
+}
+.atm{
+    width: 18rem;
+}
+
+@media (min-width: 768px){
+    .container{
+        width: 738px;
+    }
+    .nametitle{
+        
+        /* margin-top: 150px;
+        margin-left: 150px; */
+        font-size: 60px;
+        color: wheat;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        /* background-color: darkslategray; */
+        /* padding-left: 20px; */
+        
+    
+    }
+    .desctitle{
+/*        
+        margin-top: -25px;
+        margin-left: 300px; */
+        font-size: 50px;
+        color: wheat;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        /* background-color: darkslategray; */
+        /* padding-left: 40px; */
+    }
+    /* #top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; */
+    
+    #aboutbulk1{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 25px;
+        flex-wrap: nowrap;
+        width: 90%;
+        margin-top: 35px;
+    }
+    #aboutbulk2{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 25px;
+        flex-wrap: nowrap;
+        width: 90%;
+
+    }
+    .intro1{
+        margin-right: 20px;
+        text-align: center;
+    }
+    .intro2{
+        margin-right: 20px;
+        text-align: center;
+    }
+    #languagetitle{
+        margin-top: 0px;
+        font-size: 25px;
+        margin-left: 45px;
+    }
+    #tocometitle{
+        font-size: 25px;
+        margin-left: 45px;
+    }
+    .projects{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    footer{
+        text-align: center;
+        padding-bottom: 1px;
+    }
+    #aboutall{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* max-width: 90vh; */
+        margin-left: 17px;
+        flex-wrap: wrap;
+        width: 90%
+        /* margin-left: 40px; */
+    }
+    .smcontainer{
+        margin-left: 345px;
+    }
+    .mepic{
+        max-width: 225px;
+    }
+    .atm{
+        width: 23rem;
+    }
+    .webscraper{
+        width: 23rem;
+    }
+    .tictactoe{
+        width: 23rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .smcontainer{
+        margin-left: 480px;
+    }
+    .mepic{
+        max-width: 300px;
+    }
+    .fishpic{
+        margin-right: 30px;
+    }
+    #projectcards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-top: 30px;
+        
+    
+    }
+    .atm{
+        width: 25%;
+        flex: 1;
+        flex-direction: row;
+    }
+    .webscraper{
+        width: 25%;
+        flex: 1;
+        flex-direction: row;
+    }
+    .tictactoe{
+        width: 25%;
+        flex: 1;
+        flex-direction: row;
+    }
+    .card-img-top{
+        width: 300px;
+        height: 220px;
+    }
+    .btn-primary{
+        align-items: baseline;
+
+    }
+    
+}
+@media (min-width: 1400px){
+    .smcontainer{
+        margin-left: 695px;
+    }
+    .scroll-down{
+        height: 90px;
+        width: 50px;
+        border: 4px solid wheat;
+        outline-color: 2px black;
+        position: absolute;
+        left: 50%;
+        bottom: 200px;
+        border-radius: 50px;
+        cursor: pointer;
+        /* scroll-behavior: smooth; */
+    }
+    
+    .scroll-down::before,
+    .scroll-down::after{
+        content: '';
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        border: 4px solid wheat;
+        height: 15px;
+        width: 15px;
+        transform: translate(-50%, -100%) rotate(45deg);
+        border-top: transparent;
+        border-left: transparent;
+        animation: scroll-down 1s ease-in-out infinite; 
+    }
+    .scroll-down::after{
+        top: 20%;
+        animation-delay: .3s;
+    }
+    @keyframes scroll-down{
+        0%{
+            opacity: 0;
+        }
+        30%{
+            opacity: 1;
+        }
+        60%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            top: 90%;
+        }
+    }
+    #aboutall{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+
     }
 }
