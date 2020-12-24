@@ -11,13 +11,13 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
 }
 body{
-    background-image:url("https://wallpaperset.com/w/full/8/c/5/522710.jpg"); 
+    /* background-image:url("https://wallpaperset.com/w/full/8/c/5/522710.jpg"); 
     height: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    
+    background-size: cover; */
+    background-color:darkgreen;
     
 }
 
